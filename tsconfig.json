@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "importHelpers": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "strict": true,
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "verbatimModuleSyntax": true,
+    "lib": ["esnext"],
+    "declaration": false,
+    "emitDeclarationOnly": false,
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+  },
+  "types": ["node", "@types/node"]
+}

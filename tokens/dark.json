@@ -1,0 +1,30 @@
+{
+  "semantic": {
+    "color": {
+      "background": {
+        "$type": "color",
+        "$value": "{color.black}"
+      },
+      "surface": {
+        "$type": "color",
+        "$value": "{color.gray900}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{color.white}"
+      },
+      "textSecondary": {
+        "$type": "color",
+        "$value": "{color.gray300}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{color.gray700}"
+      },
+      "accent": {
+        "$type": "color",
+        "$value": "{color.blue500}"
+      }
+    }
+  }
+}

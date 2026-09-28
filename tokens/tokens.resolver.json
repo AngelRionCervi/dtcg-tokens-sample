@@ -1,0 +1,30 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/resolver.json",
+  "name": "Example Design System",
+  "version": "2025.10",
+  "resolutionOrder": [
+    { "$ref": "#/sets/core" },
+    { "$ref": "#/modifiers/color-mode" }
+  ],
+  "sets": {
+    "core": {
+      "sources": [
+        { "$ref": "./core_color.json" },
+        { "$ref": "./core_dimension.json" }
+      ]
+    }
+  },
+  "modifiers": {
+    "color-mode": {
+      "default": "light",
+      "contexts": {
+        "light": [
+          { "$ref": "./light.json" }
+        ],
+        "dark": [
+          { "$ref": "./dark.json" }
+        ]
+      }
+    }
+  }
+}
