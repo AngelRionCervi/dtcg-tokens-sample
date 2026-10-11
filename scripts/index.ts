@@ -26,9 +26,10 @@ try {
 
   console.log("Parsing result:", Object.keys(parseResult));
 
-  const lightPermutation = parseResult.resolver.apply({ "color-mode": "light" });
+  const lightPermutation = parseResult.resolver.apply({ "color-mode": "light", "size-mode": "md" });
 
   console.log("light permutation", lightPermutation);
+  console.log("Parsing completed successfully");
 } catch (error) {
   console.error("Error occurred during parsing:", error);
 }

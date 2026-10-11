@@ -3,14 +3,35 @@
   "name": "Example Design System",
   "version": "2025.10",
   "resolutionOrder": [
-    { "$ref": "#/sets/core" },
-    { "$ref": "#/modifiers/color-mode" }
+    {
+      "$ref": "#/sets/core"
+    },
+    {
+      "$ref": "#/sets/common"
+    },
+    {
+      "$ref": "#/modifiers/color-mode"
+    },
+    {
+      "$ref": "#/modifiers/size-mode"
+    }
   ],
   "sets": {
     "core": {
       "sources": [
-        { "$ref": "./core_color.json" },
-        { "$ref": "./core_dimension.json" }
+        {
+          "$ref": "./core/core_color.json"
+        },
+        {
+          "$ref": "./core/core_dimension.json"
+        }
+      ]
+    },
+    "common": {
+      "sources": [
+        {
+          "$ref": "./common.json"
+        }
       ]
     }
   },
@@ -19,10 +40,34 @@
       "default": "light",
       "contexts": {
         "light": [
-          { "$ref": "./light.json" }
+          {
+            "$ref": "./mode-color/light.json"
+          }
         ],
         "dark": [
-          { "$ref": "./dark.json" }
+          {
+            "$ref": "./mode-color/dark.json"
+          }
+        ]
+      }
+    },
+    "size-mode": {
+      "default": "md",
+      "contexts": {
+        "xs": [
+          {
+            "$ref": "./mode-size/xs/size.json"
+          }
+        ],
+        "md": [
+          {
+            "$ref": "./mode-size/md/size.json"
+          }
+        ],
+        "xl": [
+          {
+            "$ref": "./mode-size/xl/size.json"
+          }
         ]
       }
     }

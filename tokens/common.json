@@ -1,0 +1,15 @@
+{
+  "breakpoint": {
+    "$type": "dimension",
+    "xs": { "$value": { "value": 0, "unit": "px" } },
+    "sm": { "$value": { "value": 480, "unit": "px" } },
+    "md": { "$value": { "value": 768, "unit": "px" } },
+    "lg": { "$value": { "value": 1024, "unit": "px" } },
+    "xl": { "$value": { "value": 1280, "unit": "px" } }
+  },
+  "duration": {
+    "$type": "duration",
+    "fast": { "$value": { "value": 150, "unit": "ms" } },
+    "normal": { "$value": { "value": 300, "unit": "ms" } }
+  }
+}

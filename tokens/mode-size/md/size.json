@@ -1,0 +1,18 @@
+{
+  "semantic": {
+    "size": {
+      "padding": {
+        "$type": "dimension",
+        "$value": "{dimension.space400}"
+      },
+      "gap": {
+        "$type": "dimension",
+        "$value": "{dimension.space300}"
+      },
+      "radius": {
+        "$type": "dimension",
+        "$value": "{dimension.radiusMedium}"
+      }
+    }
+  }
+}
