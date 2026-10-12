@@ -56,15 +56,24 @@
       "contexts": {
         "xs": [
           {
+            "$ref": "#/sets/common"
+          },
+          {
             "$ref": "./mode-size/xs/size.json"
           }
         ],
         "md": [
           {
+            "$ref": "#/sets/common"
+          },
+          {
             "$ref": "./mode-size/md/size.json"
           }
         ],
         "xl": [
+          {
+            "$ref": "#/sets/common"
+          },
           {
             "$ref": "./mode-size/xl/size.json"
           }
