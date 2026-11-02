@@ -1,6 +1,6 @@
 {
   "$schema": "https://www.designtokens.org/schemas/2025.10/resolver.json",
-  "name": "Example Design System",
+  "name": "Example Design Systemo",
   "version": "2025.10",
   "resolutionOrder": [
     {
@@ -31,6 +31,9 @@
       "sources": [
         {
           "$ref": "./common.json"
+        },
+        {
+          "$ref": "mode-color/light.json"
         }
       ]
     }
@@ -80,5 +83,6 @@
         ]
       }
     }
-  }
+  },
+  "description": "and this is a description"
 }
