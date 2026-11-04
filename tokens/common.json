@@ -1,7 +1,7 @@
 {
   "breakpoint": {
     "$type": "dimension",
-    "xs": { "$value": { "value": 86, "unit": "px" } },
+    "xs": { "$value": { "value": 8666, "unit": "px" } },
     "sm": { "$value": { "value": 480, "unit": "px" } },
     "md": { "$value": { "value": 768, "unit": "px" } },
     "lg": { "$value": { "value": 1024, "unit": "px" } },
