@@ -1,0 +1,36 @@
+{
+  "semantic": {
+    "typography": {
+      "body": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{fontFamilies.inter}",
+          "fontSize": "{fontSizes.200}",
+          "fontWeight": "{fontWeights.regular}",
+          "lineHeight": "{lineHeights.normal}",
+          "letterSpacing": "{letterSpacings.normal}"
+        }
+      },
+      "heading": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{fontFamilies.inter}",
+          "fontSize": "{fontSizes.400}",
+          "fontWeight": "{fontWeights.bold}",
+          "lineHeight": "{lineHeights.tight}",
+          "letterSpacing": "{letterSpacings.normal}"
+        }
+      },
+      "display": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{fontFamilies.inter}",
+          "fontSize": "{fontSizes.800}",
+          "fontWeight": "{fontWeights.bold}",
+          "lineHeight": "{lineHeights.tight}",
+          "letterSpacing": "{letterSpacings.wide}"
+        }
+      }
+    }
+  }
+}

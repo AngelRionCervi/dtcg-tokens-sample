@@ -24,6 +24,9 @@
         },
         {
           "$ref": "./core/core_dimension.json"
+        },
+        {
+          "$ref": "./core/core_typography.json"
         }
       ]
     },
@@ -60,6 +63,9 @@
           },
           {
             "$ref": "./mode-size/xs/size.json"
+          },
+          {
+            "$ref": "./mode-size/xs/typography.json"
           }
         ],
         "md": [
@@ -68,6 +74,9 @@
           },
           {
             "$ref": "./mode-size/md/size.json"
+          },
+          {
+            "$ref": "./mode-size/md/typography.json"
           }
         ],
         "xl": [
@@ -76,6 +85,9 @@
           },
           {
             "$ref": "./mode-size/xl/size.json"
+          },
+          {
+            "$ref": "./mode-size/xl/typography.json"
           }
         ]
       }
