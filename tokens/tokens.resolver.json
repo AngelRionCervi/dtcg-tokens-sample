@@ -27,6 +27,9 @@
         },
         {
           "$ref": "./core/core_typography.json"
+        },
+        {
+          "$ref": "./core/core_gradients.json"
         }
       ]
     },
