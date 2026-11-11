@@ -26,5 +26,72 @@
         "$value": "{color.blue500}"
       }
     }
+  },
+  "semanticGradients": {
+    "semantic-example": {
+      "$type": "gradient",
+      "$value": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [0.3, 1, 1]
+          },
+          "position": 0
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [1, 0.7, 0.3]
+          },
+          "position": 0.5
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [0.4, 1, 1]
+          },
+          "position": 1
+        }
+      ],
+      "$extensions": {
+        "com.studio-token": {
+          "gradient": {
+            "type": "GRADIENT_RADIAL",
+            "angle": 30
+          }
+        }
+      }
+    },
+    "semantic-example-2": {
+      "$type": "gradient",
+      "$value": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [0.3, 0.7, 0.3]
+          },
+          "position": 0
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [0.3, 0.6, 1]
+          },
+          "position": 0.7
+        },
+        {
+          "color": "{color.gray300}",
+          "position": 1
+        }
+      ],
+      "$extensions": {
+        "com.studio-token": {
+          "gradient": {
+            "type": "GRADIENT_DIAMOND",
+            "angle": 45
+          }
+        }
+      }
+    }
   }
 }
