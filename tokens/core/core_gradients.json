@@ -56,7 +56,7 @@
         "position": 1
       }
     ],
-    "extensions": {
+    "$extensions": {
       "com.studio-token": {
         "gradient": {
           "type": "GRADIENT_ANGULAR",
@@ -90,7 +90,7 @@
         "position": 1
       }
     ],
-    "extensions": {
+    "$extensions": {
       "com.studio-token": {
         "gradient": {
           "type": "GRADIENT_RADIAL",
@@ -121,7 +121,7 @@
         "position": 1
       }
     ],
-    "extensions": {
+    "$extensions": {
       "com.studio-token": {
         "gradient": {
           "type": "GRADIENT_LINEAR",
