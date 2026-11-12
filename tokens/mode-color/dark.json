@@ -93,5 +93,17 @@
         }
       }
     }
+  },
+  "semanticShadows": {
+    "semantic-example-shadow": {
+      "$type": "shadow",
+      "$value": {
+        "color": "{color.white}",
+        "offsetX": "{dimension.space100}",
+        "offsetY": "{dimension.space200}",
+        "blur": "{dimension.space200}",
+        "spread": "{dimension.space200}"
+      }
+    }
   }
 }

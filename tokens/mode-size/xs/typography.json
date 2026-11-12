@@ -4,7 +4,7 @@
       "body": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{fontFamilies.inter}",
+          "fontFamily": "{fontFamilies.arial}",
           "fontSize": "{fontSizes.100}",
           "fontWeight": "{fontWeights.regular}",
           "lineHeight": "{lineHeights.normal}",
@@ -14,7 +14,7 @@
       "heading": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{fontFamilies.inter}",
+          "fontFamily": "{fontFamilies.arial}",
           "fontSize": "{fontSizes.300}",
           "fontWeight": "{fontWeights.bold}",
           "lineHeight": "{lineHeights.tight}",
@@ -24,7 +24,7 @@
       "display": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{fontFamilies.inter}",
+          "fontFamily": "{fontFamilies.arial}",
           "fontSize": "{fontSizes.400}",
           "fontWeight": "{fontWeights.bold}",
           "lineHeight": "{lineHeights.tight}",
